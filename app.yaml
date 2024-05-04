@@ -1,0 +1,12 @@
+service: nextjs-python-test
+runtime: custom
+env: flex
+
+
+manual_scaling:
+  instances: 1
+
+resources:
+  cpu: 2    # Increased from 1 to 2 CPUs
+  memory_gb: 4    # Increased from 1 GB to 4 GB
+  disk_size_gb: 20 # Increased from 10 GB to 20 GB
